@@ -1,0 +1,30 @@
+:root {
+  --orange: #f96302;
+  --lightgrey: #f8f8f8;
+  --grey: #999;
+  --not-black: #484b61;
+}
+
+body {
+  background-color: var(--lightgrey);
+  font-family: "Source Sans Pro", sans-serif;
+  margin: initial;
+  color: var(--not-black);
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  color: var(--orange);
+  margin: initial;
+  padding: 0.5em;
+}
+
+.button {
+  border: 1px solid var(--orange);
+  background-color: transparent;
+  font-size: 1rem;
+  padding: 0.25em 1em;
+  border-radius: 8%;
+  color: var(--orange);
+}

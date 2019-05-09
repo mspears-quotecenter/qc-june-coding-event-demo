@@ -1,0 +1,15 @@
+.card {
+  background-color: white;
+}
+
+.card__info {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.card__title {
+
+}
+
+.card__date {
+  color:var(--grey);
+}
