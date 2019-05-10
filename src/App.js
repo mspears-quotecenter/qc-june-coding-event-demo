@@ -107,9 +107,12 @@ const App = () => {
 
   // This useEffect allows us to sync our queue reducer's state, to localStorage
   // enabling a persistance of our queue between refreshes.
-  useEffect(() => {
-    localStorage.setItem(QUEUE_STORAGE_KEY, JSON.stringify(queue));
-  }, [queue]);
+  useEffect(
+    () => {
+      localStorage.setItem(QUEUE_STORAGE_KEY, JSON.stringify(queue));
+    },
+    [queue]
+  );
 
   // Fragments are "partial" components that can be used to wrap multiple components
   // under a single parent component, they are not rendered

@@ -1,15 +1,21 @@
 .card {
   background-color: white;
+  margin: 1em;
+  width: 300px;
+  box-shadow: 0px 2px 4px 4px #f4f4f4;
 }
 
 .card__info {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 0.5em 1em;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .card__title {
-
+  font-size: 1.4em;
 }
 
 .card__date {
-  color:var(--grey);
+  color: var(--grey);
 }
