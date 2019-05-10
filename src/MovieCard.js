@@ -7,9 +7,9 @@ const MovieCard = ({ id, title, releaseDate, poster, addToQueue }) => (
   <div className="card">
     <img src={poster} alt={`${title}-poster`} />
     <div>
-      <div class="card__info">
-        <div class="card__title">{title}</div>
-        <div class="card__date">{releaseDate}</div>
+      <div className="card__info">
+        <div className="card__title">{title}</div>
+        <div className="card__date">{releaseDate}</div>
       </div>
       <button className="button" onClick={() => addToQueue(id)}>
         +

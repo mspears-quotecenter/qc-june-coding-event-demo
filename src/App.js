@@ -9,6 +9,8 @@ import React, {
 import ReactDom from "react-dom";
 import shortId from "shortid";
 
+import "@babel/polyfill";
+
 import "./App.css";
 
 // AJAX service for getting a list of movies
